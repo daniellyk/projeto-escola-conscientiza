@@ -22,7 +22,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Header */
 header {
     background: var(--branco);
     box-shadow: var(--sombra);
@@ -65,7 +64,7 @@ header {
     color: var(--magenta);
 }
 
-/* Hero Section */
+
 .hero {
     background: linear-gradient(135deg, var(--roxo) 0%, #6C3483 100%);
     color: var(--branco);
@@ -135,7 +134,7 @@ header {
     color: var(--roxo);
 }
 
-/* Botão Saiba Mais Estilizado */
+
 .topic-btn {
     background: var(--roxo);
     color: var(--branco);
@@ -221,7 +220,7 @@ header {
     font-weight: 600;
 }
 
-/* Sections */
+
 section {
     padding: 80px 2rem;
 }
@@ -242,7 +241,7 @@ section {
     font-size: 1.1rem;
 }
 
-/* Topics */
+
 .topics {
     background: var(--fundo);
 }
@@ -315,7 +314,7 @@ section {
     left: 0;
 }
 
-/* Resources */
+
 .resources {
     background: var(--fundo);
 }
@@ -453,7 +452,7 @@ footer {
     }
 }
 
-/* Botão Saiba Mais Estilizado */
+
 .topic-btn {
     background: var(--roxo);
     color: var(--branco);
