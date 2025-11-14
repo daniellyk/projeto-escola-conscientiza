@@ -510,3 +510,28 @@ footer {
 .topic-btn:hover i {
     transform: translateX(4px);
 }
+
+/* GRID dos cards de falas */
+.falas-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+}
+
+/* Ajuste dos cards (pequenos agora) */
+.fala-card {
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: var(--branco);
+    box-shadow: var(--sombra);
+}
+
+/* Avatar menor */
+.avatar {
+    width: 45px;
+    height: 45px;
+    background: #dcdcdc;
+    border-radius: 50%;
+}
